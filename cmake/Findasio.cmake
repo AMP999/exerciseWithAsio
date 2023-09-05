@@ -1,4 +1,4 @@
-find_path( asio_INCLUDE asio.hpp HINTS "${CMAKE_SOURCE_DIR}/lib/third_party/asio/include" "/usr/include" "/usr/local/include" "/opt/local/include" )
+find_path( asio_INCLUDE asio.hpp HINTS "${CMAKE_SOURCE_DIR}/lib/third_party/asio/asio/include" "/usr/include" "/usr/local/include" "/opt/local/include" )
 
 if ( asio_INCLUDE )
     set( ASIO_FOUND TRUE )
